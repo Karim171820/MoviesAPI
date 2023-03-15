@@ -36,7 +36,7 @@ namespace MoviesAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Genres");
+                    b.ToTable("Genres", (string)null);
                 });
 #pragma warning restore 612, 618
         }
